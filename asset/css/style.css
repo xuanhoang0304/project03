@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #2ac9bf;
+}
+html {
+    font-size: 62.5%;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Sora", sans-serif;
+}
+
+/* Common */
+a {
+    text-decoration: none;
+}
