@@ -80,6 +80,16 @@
             content="./asset/favicon/ms-icon-144x144.png"
         />
         <meta name="theme-color" content="#ffffff" />
+        <!-- Icon -->
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com   " />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -93,6 +103,163 @@
         <title>Shine Smile</title>
     </head>
     <body>
-        <h1>Hello</h1>
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header-top">
+                    <!-- Logo -->
+                    <a href="/">
+                        <div class="logo">
+                            <span class="logo__circle"></span>
+                            <span class="logo__text">
+                                <span class="logo__brand">shine</span>
+                                <span class="logo__brand logo__brand--small">
+                                    smile
+                                </span>
+                            </span>
+                        </div>
+                    </a>
+                    <!-- Navbar -->
+                    <nav class="navbar">
+                        <ul class="navbar__list">
+                            <li class="navbar__item">
+                                <a
+                                    href="#!"
+                                    class="navbar__link navbar__link--active"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Services</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">About</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Doctors</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- Action -->
+                    <div class="header-action">
+                        <a href="" class="header-action__log-in">Log In</a>
+                        <a href="" class="btn header-action__sign-up"
+                            >Sign Up</a
+                        >
+                    </div>
+                </div>
+                <!-- Hero -->
+                <section class="hero">
+                    <section class="hero__content">
+                        <h1 class="hero__heading">
+                            Exceptional dental care for all ages.
+                        </h1>
+                        <p class="hero__desc">
+                            Exceptional dental care for all ages. Your great
+                            smile begins with a great dentist.
+                        </p>
+                        <div class="hero__row">
+                            <a href="#!" class="btn">Book online</a>
+                            <span class="hero__phone"
+                                >or call (123) 456-7890</span
+                            >
+                        </div>
+                    </section>
+                    <div class="hero__media">
+                        <figure class="hero__images">
+                            <img
+                                src="./asset/img/hero01.jpg"
+                                alt=""
+                                class="hero__img"
+                            />
+                            <img
+                                src="./asset/img/hero02.jpg"
+                                alt=""
+                                class="hero__img"
+                            />
+                        </figure>
+                    </div>
+                </section>
+            </div>
+        </header>
+        <main style="height: 10000px">
+            <!-- Service -->
+            <div class="service">
+                <div class="container">
+                    <h2 class="service__heading section__heading">
+                        Our services
+                    </h2>
+                    <p class="service__desc section__desc">
+                        Exceptional dental care for all ages. Your great smile
+                        begins with a great dentist.
+                    </p>
+                    <section class="service__row">
+                        <figure>
+                            <img
+                                src="./asset/img/hero02.jpg"
+                                alt=""
+                                class="service__img"
+                            />
+                        </figure>
+                        <div>
+                            <div class="service__list">
+                                <!-- Service item 01 -->
+                                <section class="service-item">
+                                    <div class="service--item__icon">
+                                        <i class="fa-solid fa-tooth"></i>
+                                    </div>
+                                    <div class="service-item__body">
+                                        <h3 class="service-item__heading">
+                                            Oral Surgery
+                                        </h3>
+                                        <p class="service-item__desc">
+                                            Everything you expect and then some.
+                                            Cleanings, fillings, and x-rays.
+                                        </p>
+                                    </div>
+                                </section>
+
+                                <!-- Service item 02 -->
+                                <section class="service-item">
+                                    <div>
+                                        <i
+                                            class="fa-solid fa-tooth service--item__icon"
+                                        ></i>
+                                    </div>
+                                    <div class="service-item__body">
+                                        <h3 class="service-item__heading">
+                                            Wisdom Teeth Removal
+                                        </h3>
+                                        <p class="service-item__desc">
+                                            Everything you expect and then some.
+                                            Cleanings, fillings, and x-rays.
+                                        </p>
+                                    </div>
+                                </section>
+
+                                <!-- Service item 03 -->
+                                <section class="service-item">
+                                    <div>
+                                        <i
+                                            class="fa-solid fa-tooth service--item__icon"
+                                        ></i>
+                                    </div>
+                                    <div class="service-item__body">
+                                        <h3 class="service-item__heading">
+                                            Wisdom Teeth Removal
+                                        </h3>
+                                        <p class="service-item__desc">
+                                            Everything you expect and then some.
+                                            Cleanings, fillings, and x-rays.
+                                        </p>
+                                    </div>
+                                </section>
+                            </div>
+                            <a href="" class="btn">All Services</a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
     </body>
 </html>
