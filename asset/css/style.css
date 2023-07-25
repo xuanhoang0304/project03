@@ -609,3 +609,147 @@ a {
 .news-item__more:hover {
     color: #2e80ce;
 }
+/* Appointment */
+.appointment {
+    padding: 85px 0;
+    margin-bottom: 85px;
+}
+
+.appointment__inner {
+    text-align: center;
+    background: #f6fbff;
+    padding: 100px 178px;
+    border-radius: 6px;
+}
+
+.appointment__heading {
+    position: relative;
+    padding-bottom: 18px;
+}
+
+.appointment__heading::after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    content: "";
+    display: inline-block;
+    background: #2e80ce;
+    width: 136px;
+    height: 2px;
+}
+
+.appointment__desc {
+    max-width: 617px;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    margin: 18px auto 38px;
+}
+
+/* Footer */
+.footer {
+    background: #10375c;
+    padding-top: 100px;
+}
+.footer__row {
+    display: grid;
+    grid-template-columns: 1fr 0.4fr 0.4fr 1fr;
+    column-gap: 78px;
+}
+.footer__desc {
+    margin-top: 21px;
+    color: #a9b3bb;
+    font-size: 1.6rem;
+    line-height: 1.75; /* 175% */
+}
+
+.footer__list {
+    margin-bottom: 28px;
+}
+
+.footer__title {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+}
+.footer-item {
+    margin-top: 10px;
+}
+
+.footer-item__link {
+    color: #a9b3bb;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85; /* 185.714% */
+    white-space: nowrap;
+}
+.footer__social {
+    display: flex;
+    column-gap: 10px;
+}
+
+.footer__social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 28px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #fff;
+    color: #2e80ce;
+    transition: 0.25s;
+}
+
+.footer__social-link:hover {
+    background: #2e80ce;
+    color: #fff;
+}
+
+.footer__desc--small {
+    font-size: 1.4rem;
+    line-height: 1.85;
+    margin-bottom: 10px;
+}
+
+.footer-form {
+    display: flex;
+    column-gap: 12px;
+}
+
+.footer-form__input {
+    outline: none;
+    background: transparent;
+    border-radius: 4px;
+    border: 1px solid #406181;
+    min-width: 212px;
+    padding: 0 10px;
+}
+.footer-form__input::placeholder {
+    color: #9ca8b1;
+    font-size: 1.4rem;
+    line-height: 1.85; /* 185.714% */
+}
+
+.footer-form__btn {
+    --height: 46px;
+
+    min-width: 108px;
+    border-radius: 4px;
+}
+
+.footer__copyright {
+    border-top: 1px solid #406181;
+    padding: 28px 0 42px;
+}
+
+.footer__copyrigt-text {
+    color: #aab3ba;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85; /* 185.714% */
+}
