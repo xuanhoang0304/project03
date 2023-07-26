@@ -104,7 +104,7 @@
     </head>
     <body>
         <!-- Header -->
-        <header class="header">
+        <header class="header header--fixed">
             <div class="container">
                 <div class="header-top">
                     <!-- Logo -->
@@ -124,19 +124,23 @@
                         <ul class="navbar__list">
                             <li class="navbar__item">
                                 <a
-                                    href="#!"
+                                    href="#"
                                     class="navbar__link navbar__link--active"
                                     >Home</a
                                 >
                             </li>
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link">Services</a>
+                                <a href="#service" class="navbar__link"
+                                    >Services</a
+                                >
                             </li>
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link">About</a>
+                                <a href="#member" class="navbar__link"
+                                    >Doctors</a
+                                >
                             </li>
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link">Doctors</a>
+                                <a href="#footer" class="navbar__link">About</a>
                             </li>
                         </ul>
                     </nav>
@@ -149,42 +153,47 @@
                     </div>
                 </div>
                 <!-- Hero -->
-                <section class="hero">
-                    <section class="hero__content">
-                        <h1 class="hero__heading">
-                            Exceptional dental care for all ages.
-                        </h1>
-                        <p class="hero__desc">
-                            Exceptional dental care for all ages. Your great
-                            smile begins with a great dentist.
-                        </p>
-                        <div class="hero__row">
-                            <a href="#!" class="btn">Book online</a>
-                            <span class="hero__phone"
-                                >or call (123) 456-7890</span
-                            >
-                        </div>
-                    </section>
-                    <div class="hero__media">
-                        <figure class="hero__images">
-                            <img
-                                src="./asset/img/hero01.jpg"
-                                alt=""
-                                class="hero__img"
-                            />
-                            <img
-                                src="./asset/img/hero02.jpg"
-                                alt=""
-                                class="hero__img"
-                            />
-                        </figure>
-                    </div>
-                </section>
             </div>
         </header>
         <main>
+            <!-- Hero -->
+            <section class="hero">
+                <div class="container">
+                    <section class="hero__body">
+                        <section class="hero__content">
+                            <h1 class="hero__heading">
+                                Exceptional dental care for all ages.
+                            </h1>
+                            <p class="hero__desc">
+                                Exceptional dental care for all ages. Your great
+                                smile begins with a great dentist.
+                            </p>
+                            <div class="hero__row">
+                                <a href="#!" class="btn">Book online</a>
+                                <span class="hero__phone"
+                                    >or call (123) 456-7890</span
+                                >
+                            </div>
+                        </section>
+                        <div class="hero__media">
+                            <figure class="hero__images">
+                                <img
+                                    src="./asset/img/hero01.jpg"
+                                    alt=""
+                                    class="hero__img"
+                                />
+                                <img
+                                    src="./asset/img/hero02.jpg"
+                                    alt=""
+                                    class="hero__img"
+                                />
+                            </figure>
+                        </div>
+                    </section>
+                </div>
+            </section>
             <!-- Service -->
-            <section class="service">
+            <section id="service" class="service">
                 <div class="container">
                     <h2 class="service__heading section__heading">
                         Our services
@@ -338,7 +347,7 @@
                 </div>
             </section>
             <!-- Member -->
-            <section class="member">
+            <section id="member" class="member">
                 <div class="container">
                     <header class="member__heading">
                         <h2 class="section__heading">Our virtual dentist</h2>
@@ -552,7 +561,7 @@
                 </div>
             </section>
         </main>
-        <footer class="footer">
+        <footer id="footer" class="footer">
             <div class="container">
                 <div class="footer__row">
                     <div class="footer__column">
@@ -674,5 +683,10 @@
                 </div>
             </div>
         </footer>
+        <!-- <div class="test">
+            <div class="test-content">
+                <i class="fa-solid fa-play"></i>
+            </div>
+        </div> -->
     </body>
 </html>

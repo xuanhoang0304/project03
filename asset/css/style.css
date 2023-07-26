@@ -3,6 +3,7 @@
 }
 :root {
     --header-bg: #10375c;
+    --cicle-size: 100px;
 }
 html {
     font-size: 62.5%;
@@ -86,9 +87,14 @@ a {
 
 /* Header */
 .header {
-    padding-top: 30px;
-    min-height: 100vh;
+    padding: 30px 0 4px 0;
     background: var(--header-bg);
+}
+.header--fixed {
+    position: sticky;
+    background-color: #10375c;
+    top: -26px;
+    z-index: 1;
 }
 
 .container {
@@ -187,10 +193,15 @@ a {
 }
 /* Hero */
 .hero {
-    margin-top: 76px;
+    padding-top: 76px;
+    background-color: #10375c;
+    height: 100vh;
+}
+.hero__body {
     display: flex;
     align-items: center;
 }
+
 .hero__content {
     width: 44%;
     flex-shrink: 0;
@@ -752,4 +763,27 @@ a {
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 1.85; /* 185.714% */
+}
+
+.test {
+    width: var(--cicle-size);
+    height: var(--cicle-size);
+    border-radius: 50%;
+    border-width: calc(var(--cicle-size) / 100 * 10);
+    border-style: solid;
+    border-color: yellow transparent transparent yellow;
+    rotate: -45deg;
+}
+
+.test-content {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    border-radius: 50%;
+    border: calc(var(--cicle-size) / 100 * 10) solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    rotate: 45deg;
 }
